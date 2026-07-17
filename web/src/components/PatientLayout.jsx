@@ -16,10 +16,11 @@ export default function PatientLayout() {
 
   const sections = [
     { name: 'Medical History', path: `/patient/${id}/medical-history` },
-    { name: 'Past Obstetric History', path: `/patient/${id}/past-history` },
+    { name: 'Past Obstetric History', path: `/patient/${id}/past-obstetric-history` },
     { name: 'Clinic Care', path: `/patient/${id}/clinic-care` },
     { name: 'Lab Tests', path: `/patient/${id}/labs` },
-    { name: 'Birth Plan', path: `/patient/${id}/birth-plan` }
+    { name: 'Birth Plan', path: `/patient/${id}/birth-plan` },
+    { name: 'Delivery & Postnatal Care', path: `/patient/${id}/delivery-pnc` }
   ];
 
   return (

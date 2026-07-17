@@ -70,12 +70,7 @@ export default function Login({ setAuth }) {
 </form>
 
         {/* Redirect link to signup form */}
-        <p className="text-center text-xs text-gray-500 mt-6">
-          New staff member?{' '}
-          <Link to="/signup" className="text-pink-600 font-bold hover:underline">
-            Register here
-          </Link>
-        </p>
+        
       </div>
     </div>
   );
